@@ -1,0 +1,66 @@
+body    {
+    font-family: "Tahoma", "Verdana", "Arial";   
+}
+
+#topMain    {
+    position: absolute;
+    z-index: 1;
+    width: 110%;
+    height: 12%;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: rgb(220,238,244);
+    top: -.15%;
+    margin: 0 auto;
+    padding: .25%;
+    padding-left: 2%;
+    left: -.25%;
+    clear: both;
+}
+
+#logo   {
+    width: 15%;
+    height: 90%;
+    float: left;
+}
+
+#search {
+    position: relative;
+    top: 25%;
+    left: 2%;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+    font-size: large;
+    padding-left: .5%;
+    display: inline-block;
+}
+
+#submissionForm {
+    bottom: 40%;
+    left: 7%;
+    display: inline;
+}
+
+#subButton  {
+    position: relative;
+    top: 25%;
+    left: 2%;
+    width: 10%;
+    height: 35%;
+    font-size: medium;
+    margin-left: .5%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#indexContent   {
+    position: absolute;
+    clear: both;
+    width: 100%;
+    margin: auto;   
+    top: 15%;
+}

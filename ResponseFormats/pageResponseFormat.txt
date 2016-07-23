@@ -1,0 +1,8 @@
+"<p>" + text.substring(0, indexOf) + "<br/><a href=\"" + text.substring(indexOf) + "\">Full Post Here</a></p>";
+
+<p>text<br/><a href="link">full post here</a></p>
+
+<p>
+	text <br/>
+	<a href="link">Full Post Here</a>"
+</p>

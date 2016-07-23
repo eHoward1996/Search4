@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+	head
+		link(rel="stylesheet", href="header.css", type="text/css", charset="UTF-8")
+		link(rel="stylesheet", href="content.css", type="text/css", charset="UTF-8")
+		title= Search4
+	body
+		div(id="topMain")
+			img(id="logo" src="Images/Search4Logo.png")
+			form(id="submissionForm" action="/search4" method="get")
+				input(type="text" id="search" name="q" value=query.toString())
+				input(type="submit" value="Search4 It" id="subButton")
+		div(id="break" style="width: 100%; position: absolute; top: 15%; height: 3%;")
+		div(id="midContent")
+			div(id="defHolder")
+				if def != undefined && def != null
+					p(id="definition")!= def.toString()
+			each response in responses
+				if response !== undefined
+					p(class='results')!= response.toString()
+					hr(width='15%')

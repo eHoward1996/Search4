@@ -1,0 +1,10 @@
+.trendsButton {
+	background-color: #e6e6e6;
+	font-size: larger;
+	border-radius: 35%;
+}
+
+.trendsButton:hover {
+    background-color: white;
+    color: black;
+}

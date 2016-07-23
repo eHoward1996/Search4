@@ -1,0 +1,44 @@
+.results	{
+	width: 50%;
+	margin: auto;
+	display: block;
+	word-wrap: break-word;
+	padding: 2.5%;
+	text-align: center;
+}
+
+#midContent	{
+	position: absolute;
+	clear: both;
+	width: 100%;
+	margin: auto;	
+	top: 15%;
+	font-family: "Tahoma", "Verdana", "Arial";
+}
+
+#defHolder	{
+	position: relative;
+	width: 50%;
+	border: 2px solid rgb(220,238,244);
+	clear: both;
+	margin: 0 auto;
+}
+
+#definition	{
+	padding: 2%;
+	clear: both;
+	margin: 0 auto;
+}
+
+#queryLink	{
+	color: black;
+	text-decoration: none;
+	font-size: x-large;
+}
+#queryLink:hover	{
+	color: gray;
+	text-decoration: underline;
+}
+#ex	{
+	font-size: larger;
+}

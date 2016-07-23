@@ -1,0 +1,15 @@
+{
+  "name": "search4",
+  "version": "1.0.0",
+  "description": "search4 social media search engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Search4"
+  },
+  "author": "Evan Howard",
+  "license": "ISC"
+}

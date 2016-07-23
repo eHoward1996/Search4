@@ -1,0 +1,11 @@
+{ 
+  definition: 'An HBO show based on George R. R. Martin\'s books. The show\'s got a great deal of politics, royal intrigues, incest, murder, warfare, violence and sex. Mediæval genre and features lots of swordplay and riding horses. And a lot of violence and sex. Did I mention the sex? And drinking and a dwarf with an obsession with whoring.',
+  permalink: 'http://game-of-thrones.urbanup.com/6452456',
+  thumbs_up: 987,
+  author: 'campanile',
+  word: 'Game of Thrones',
+  defid: 6452456,
+  current_vote: '',
+  example: 'Did you see Game of Thrones last night?\r\nYeah, and I can\'t believe they tried to murder that kid.',
+  thumbs_down: 164
+}

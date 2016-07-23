@@ -1,0 +1,46 @@
+doctype html
+html(lang='en')
+    head  
+        link(rel='stylesheet', href='header.css', type='text/css', charset='UTF-8')
+        link(rel='stylesheet', href='trends.css', type='text/css', charset='UTF-8')
+        script(type='text/javascript').
+            function submitSearchTrend(id, val)    {
+                var form = document.getElementById('submissionForm');
+                
+                document.getElementById(id).addEventListener('click', function () {
+                    document.getElementById('search').value = val;
+                    form.submit();
+                });
+            }
+        title= Search4
+    body
+        div(id='topMain')
+            img(id='logo' src='Images/Search4Logo.png')
+            form(id='submissionForm' action='/search4' method='get')
+                input(type='text' id='search' name='q')
+                input(type='submit' value='Search4 It' id='subButton')
+        div(id='break' style='width: 100%; position: absolute; top: 20%;')
+        div(id='indexContent')
+            div(id='welcome' style='width:50%; float: left; padding: 2%;')
+                h2.
+                    Welcome to Search4.
+                h3
+                    |   This project was orginally created at a Hackathon sponsored by Yahoo!
+                    |   at Hampton University in March 2016.<br/>
+                    |   The orginal project creators are Evan Howard,
+                    |   Malik White, Sean Anderson, and Tearra Brown.<br/><br/>
+                    |   
+                    |   Currently, our project is in BETA so you may experience:<br/>
+                    |   <ul>
+                    |       <li>Slowness or server timeouts</li>
+                    |       <li>Weird and Unexpected outputs</li>
+                    |       <li>Awkward Formatting</li>
+                    |   </ul>
+                    |   Thanks for looking at our project!!!
+            div(style='width: 40%; float: right; padding:2%; ')
+                h3.
+                    Top 10 Trending Topics
+                each trend in trends
+                    if trend !== undefined
+                        button(type='button' class='trendsButton' id=trend.query.toString() value=trend.name.toString()
+                            onclick='submitSearchTrend(this.id, this.value)')!= trend.name.toString()

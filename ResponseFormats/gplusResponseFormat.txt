@@ -1,0 +1,89 @@
+{
+  "kind": "plus#activityFeed",
+  "etag": "\"xw0en60W6-NurXn4VBU-CMjSPEw/GpXnIGOiRgCOb2Wa03a8N3Dumo4\"",
+  "nextPageToken": "Cg0Qo8TyhLqyzQIgACgBEhQIABCA_pOe9bHNAhiA_pOe9bHNAhgCIAEo--K_0rLi0sZ-",
+  "selfLink": "https://content.googleapis.com/plus/v1/activities?query=%23Warriors&maxResults=1&key=AIzaSyD-a9IF8KKYgoC3cpgS-Al7hLQDbugrDcw",
+  "title": "Google+ Activities Search Results",
+  "items": [
+  {
+    "kind": "plus#activity",
+    "etag": "\"xw0en60W6-NurXn4VBU-CMjSPEw/wkFvqVdWtMFEk-eQs_Ws8oeAR_M\"",
+    "title": "The Cleveland Cavaliers beat the Golden State Warriors 115-101 to force a game seven. The Cavs dominated...",
+    "published": "2016-06-18T15:43:05.568Z",
+    "updated": "2016-06-18T15:43:05.568Z",
+    "id": "z13qhhlafor5etnds22xdfu4jlnzjhqed",
+    "url": "https://plus.google.com/102796375393711697973/posts/AU8gaaXpi5h",
+    "actor": {
+      "id": "102796375393711697973",
+      "displayName": "Zayn Avelino",
+      "url": "https://plus.google.com/102796375393711697973",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50"
+      },
+      "verification": {
+       "adHocVerified": "UNKNOWN_VERIFICATION_STATUS"
+      }
+    },
+    "verb": "share",
+    "object": {
+      "objectType": "activity",
+      "id": "z13ojjmatrasz3f0u22pspsztyzmczdwz04",
+      "actor": {
+        "id": "109093952089078202748",
+        "displayName": "Brandon Lall",
+        "url": "https://plus.google.com/109093952089078202748",
+        "image": {
+          "url": "https://lh6.googleusercontent.com/-lDB5AfX4vhw/AAAAAAAAAAI/AAAAAAAACKw/AZLQBEDsDKo/photo.jpg?sz=50"
+        },
+        "verification": {
+          "adHocVerified": "UNKNOWN_VERIFICATION_STATUS"
+        }
+      },
+      "content": "The Cleveland Cavaliers beat the Golden State Warriors 115-101 to force a game seven. The Cavs dominated the game from the start outscoring the Warriors 31-11 in the first quarter. Lebron James once again carried his team to victory with 41 points, 11 assists, 8 rebounds, 4 steals and 3 blocks. Kyrie Irving also gave the Cavs 23 points, 3 assists, 4 rebounds, 2 steals and 2 blocks. Tristan Thompson had a double-double with 15 points and 16 rebounds.<br /><br />If the Warriors plan on winning game seven they better step up their defensive game and start communicating better because allowing the Cavaliers to score over 100 points a game is not going to win them a championship.<br /><br /><a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23NBA\">#NBA</a> <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23Finals\">#Finals</a> <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23Cavaliers\">#Cavaliers</a> <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23Warriors\">#Warriors</a>\ufeff",
+      "url": "https://plus.google.com/+BrandonLall/posts/5QdoW1kabmH",
+      "replies": {
+        "totalItems": 0,
+        "selfLink": "https://content.googleapis.com/plus/v1/activities/z13qhhlafor5etnds22xdfu4jlnzjhqed/comments"
+      },
+      "plusoners": {
+        "totalItems": 0,
+        "selfLink": "https://content.googleapis.com/plus/v1/activities/z13qhhlafor5etnds22xdfu4jlnzjhqed/people/plusoners"
+      },
+      "resharers": {
+        "totalItems": 0,
+        "selfLink": "https://content.googleapis.com/plus/v1/activities/z13qhhlafor5etnds22xdfu4jlnzjhqed/people/resharers"
+      },
+      "attachments": [
+      {
+        "objectType": "article",
+        "displayName": "LeBron James and Cavaliers Rout Warriors, Forcing Game 7 - The New York Times",
+        "content": "James, appearing in his sixth straight finals, scored 41 points for the second straight game to help send the N.B.A. finals to a decisive contest set for Sunday.",
+        "url": "http://www.nytimes.com/2016/06/17/sports/basketball/cleveland-cavs-golden-state-warriors-game-6-nba-finals.html?_r=0",
+        "image": {
+          "url": "https://lh3.googleusercontent.com/proxy/SyPbD7v1RMb6T2-eqf8uU5caKlpKgAxheKWqf7swtEKV6bQ5_LCdyVl_c1BwPMV_2_S-Xe8pyd5oTC5he1fX78Y3U1bSa4WeKhwws5GJ0uxvcHRwBrCtBC7Hma6EfHS4OqV1i-vNIN_eGhDMIZE8=w506-h910",
+          "type": "image/jpeg",
+          "height": 910,
+          "width": 506
+        },
+        "fullImage": {
+          "url": "https://static01.nyt.com/images/2016/06/17/sports/17jpNBAFINAL1/17jpNBAFINAL1-facebookJumbo.jpg",
+          "type": "image/jpeg"
+        }
+      }
+      ]
+    },
+    "provider": {
+       "title": "Reshared Post"
+    },
+    "access": {
+      "kind": "plus#acl",
+      "description": "Public",
+      "items": [
+      {
+        "type": "public"
+      }
+      ]
+    }
+  }
+  ]
+}
